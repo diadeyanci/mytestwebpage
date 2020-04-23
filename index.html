@@ -3,15 +3,9 @@
 <head>
 	<title>Home Page</title>
 </head>
-<body>
-	<!--
-<div style="font-family: Arial ">
-	<h3>Heading Tags:</h3>
-
-</div>
--->
-<div>
-	<h3>Tags:</h3>
+<body style="background: #003333">
+	<div style="color:#ffffff">
+	<h3>HTML Tags:</h3>
 	<ol>
 	<li>Heading tag is the heading tag with &lt;h1&gt; beign the bigest heading to &lt;h6&gt; beign the smallest heading.</li> 
 	<p>Eg.</p>
@@ -28,46 +22,53 @@
 	<p>
 	<p>Eg.</p>
 	<pre><code>&lt;hr&gt;&lt;hr&gt;</code></pre>
-    </ol>
-</div>
-<br> <!-- (br) tag for Line Break -->
+	<li>&lt;a&gt; tag is used to creat links.</li>
+	<p>Eg.</p>
+	<pre><code>&lt;a href="www.link.com"&gt;Click Me!&lt;/a&gt;</code></pre>
+	<p>Using # inside the href will bring to the current page.</p>
+	<p>We can even use <q>target</q> attribute to make the page open in a new tab</p>
+	<p>Eg.</p>
+	<pre><code>&lt;a href="www.link.com", target="blank"&gt;Click Me!&lt;/a&gt;</code></pre>
+	<p>We can even use buttons</p>
+	<p>Eg.</p>
+	<pre><code>&lt;a href="www.link.com", target="blank"&gt;&lt;button&gt;Click Me!&lt;/button&gt;&lt;/a&gt;</code></pre>
+	<li>&lt;img&gt; tag is used to insert image file into the page.</li>
+	<p>Eg.</p>
+	<pre><code>&lt;img src="images/filename.png", alt="MyLogo", width="104" height="142"&gt;</code></pre>
+	<p>Here <q>src</q> attribute is the source address, <q>alt</q> is used to provid alternate text in case the image fail to load, <q>width</q>, <q>height</q> are width and height attribute to abjust image size.</p>
+	<li>&lt;ol&gt;, &lt;ul&gt; are the ordered(number) and unordered(symbol) list respectively.</li>
+	<p>Eg.</p>
+	<pre><code>	&lt;ul&gt;
+		&lt;li&gt;First&lt;/li&gt;
+		&lt;li&gt;Second&lt;/li&gt;
+		&lt;li&gt;Third&lt;/li&gt;
+	&lt;/ul&gt;
+    </code></pre>
+    <li>&lt;strong&gt; tag:</li> This tag make the <strong>font bold.</strong>
 
-	<!-- (p) tag for paragraph -->
-	<p>This is a Paragraph.</p>
-    <p>This is another Paragraph.</p>
+	<li>&lt;mark&gt; tag:</li> This tag <mark>hightligh</mark> the word/words.
 
-<br>
+	<li>&lt;em&gt; tag:</li> This tag <em>emphasize</em> the word/words.
 
-    <!--(a) tag for link -->
-   <a href="#">This is a link!</a>
+	<li>&lt;sub&gt; tag:</li> This tag is used for subscripting  H<sub>2</sub>O.
 
-<br><br>
+	<li>&lt;sup&gt; tag:</li> This tag is used for superscripting  I<sup>2</sup>RT.
 
-   <!-- (img) tag for image-->
-   <img src="images/mylogo.png" alt="MyLogo" width="104" height="142">
+	<li>&lt;del&gt; tag:</li> This tag is used for <del>stricking</del>.
 
-<br><br>
+	<li>&lt;q&gt; tag:</li> This tag is used for <q>quotation</q>
 
-	<!-- Button tag for button-->
-	<a href="#" target="blank"><button>Click me!</button></a>
+	<li>&lt;pre&gt; tag:</li>
+	<pre style="font-family: Arial">
+	This
 
-<br><br>
+	preserves
+    the pre-formatted text
 
-	<!-- ul and ol tag for unordered and ordered list -->
-	<ul>
-		<li>First</li>
-		<li>Second</li>
-		<li>Third</li>
-	</ul>
-
-<br>
-
-	<ol>
-		<li>First</li>
-		<li>Second</li>
-		<li>Third</li>
+    within this tag.
+    </pre>
 	</ol>
-
-<a href="pages/page2.html"><button>NEXT</button></a>
+	</div>
 </body>
+<a href="pages/page2.html"><button>NEXT</button></a>
 </html>
